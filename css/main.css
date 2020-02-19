@@ -1,0 +1,84 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ---Top Bar--- */
+h1.title {
+  background-color: #2d5986;
+  background-size: 200% auto;
+  color:white;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+
+}
+
+/* --- Background formatting --- */
+body {
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+  background-color: white;
+}
+
+p {
+  font-size:1.3em;
+  line-height:1.5;
+}
+
+#welcome {
+  padding: 1em 0;
+  border-top: 1px solid #2d5986;
+  border-bottom: 1px solid #2d5986;
+}
+/* --- responsive image --- */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* --- links --- */
+/* --- add focus and active ---*/
+
+a {
+  color: #2d5986;
+}
+
+a:hover {
+  color: red;
+}
+
+a:focus {
+  color: purple;
+}
+
+a:active {
+  background-color: darkgrey;
+}
+
+/* --- nav --- */
+
+nav a {
+  color: #000;
+}
+
+
+p.byline {
+  font-weight: bold;
+}
+
+/* --- Figure Hero ---*/
+figure.hero {
+  margin: 0 -1em;
+
+}
+
+/* --- dates --- */
+p.dates {
+  font-size: 50%;
+}
